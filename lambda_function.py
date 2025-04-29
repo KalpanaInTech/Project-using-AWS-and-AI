@@ -13,8 +13,8 @@ ses = boto3.client('ses')
 
 # Environment variables
 DYNAMODB_TABLE = os.environ.get('DYNAMODB_TABLE', 'receipts')
-SES_SENDER_EMAIL = os.environ.get('SES_SENDER_EMAIL', 'abc@email.com')
-SES_RECIPIENT_EMAIL = os.environ.get('SES_RECIPIENT_EMAIL', 'abc@email.com')
+SES_SENDER_EMAIL = os.environ.get('SES_SENDER_EMAIL', 'xyz@email.com')
+SES_RECIPIENT_EMAIL = os.environ.get('SES_RECIPIENT_EMAIL', 'xyz@email.com')
 
 def lambda_handler(event, context):
     try:
