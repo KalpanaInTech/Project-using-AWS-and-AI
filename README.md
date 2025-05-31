@@ -7,7 +7,7 @@
 
 ## **Architecture Overview**
 
-- **Amazon S3**: Stores uploaded PDF bills.
+- **Amazon S3**: Stores uploaded bills.
 - **Amazon Textract**: Extracts text and structured data (amount, due date, provider) from bills.
 - **AWS Lambda**: Handles logic for processing, extracting, storing, and triggering notifications.
 - **DynamoDB**: Stores bill metadata for fast retrieval.
