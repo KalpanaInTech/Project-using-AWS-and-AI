@@ -18,11 +18,11 @@
 
 ## **How It Works**
 
-1. **Upload PDF Bill to S3**  
+1. **Upload Bills to S3**  
    → Automatically triggers a Lambda function
 
 2. **Text Extraction via Textract**  
-   → Parses due date, amount, and provider info
+   → Parses due date, Total amount, and provider info
 
 3. **Data Stored in DynamoDB**  
    → Bill metadata is indexed and available for query
